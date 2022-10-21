@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/animationNome.css">
+    <link rel="stylesheet" href="/public/css/carrossel.css">
+</head>
+
+<body>
+    <header>
+        <section class="sectionOne">                      
+            <div class="container">        
+                <ul class="dinamico">
+                    <!-- AnimationNome.css -->
+                    <li><span>Iago da Silva Carvalho</span></li>
+                </ul>
+            </div>            
+            <div>
+                <a class="icon" href=""> <img  src="../public/img/WHATSAP.png" alt="whatsap"> </a >
+                <a class="icon" href=""> <img  src="../public/img/Instagram-Icon.png" alt="instagram"> </a>
+                <a class="icon" href=""> <img  src="../public/img/github.png" alt="github"> </a >           
+            </div>
+        </section>
+
+        <section class="sectionTwo">
+            <a href="">PROJETOS</a>
+            <a href=""> HABILIDADES</a>
+            <a href="">CERTIFICADOS</a>
+            <a href="">SOBRE</a>
+        </section>
+        
+
+    </header>
+    <main>
+        <div>
+            <div class="glider-contain"> 
+                <!-- Carrossel.css -->
+                <div class="glider">
+                  <div class="img"><img  src="https://unsplash.it/1600/400?image=950"/></div>
+                  <div class="img"><img src="https://unsplash.it/1600/400?image=930"/></div>
+                  <div class="img"><img src="https://unsplash.it/1600/400?image=940"/></div>
+                  <div class="img"><img src="https://unsplash.it/1600/400?image=960"/></div>
+                </div>
+                          
+                <button id="chevron" aria-label="Previous" class="glider-prev">«</button>
+                <button id="chevron" aria-label="Next" class="glider-next">»</button>
+                <div role="tablist" class="dots"></div>
+              </div>
+        </div>
+    </main>
+    <footer>
+        <p>i</p>
+    </footer>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="../public/js/carrossel.js"></script>
+</html>
